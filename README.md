@@ -28,7 +28,6 @@ Une application web personnalisée pour suivre vos trades, positions crypto et i
 - Vue Router
 - Pinia pour la gestion d'état
 - Tailwind CSS pour le styling
-- Chart.js pour les graphiques
 - Element Plus pour les composants UI
 
 ## Installation
@@ -46,12 +45,7 @@ npm install
 
 3. Lancez l'application en mode développement :
 ```bash
-npm run dev
-```
-
-4. Pour construire l'application pour la production :
-```bash
-npm run build
+npm run dev:full
 ```
 
 ## Structure du Projet
@@ -90,10 +84,6 @@ trading-journal/
    - Ajoutez vos investissements à long terme
    - Suivez les rendements
    - Gérez votre stratégie d'investissement
-
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
 ## Licence
 
